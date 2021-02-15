@@ -1,0 +1,1 @@
+pyshortcut -n alms2obs -e /path/to/alms2obs/venv/bin/python -g -d -s alms2obs.py

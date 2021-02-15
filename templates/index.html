@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #title {
+            text-align: center;
+        }
+        div {
+            width: 500px;
+            border: 10px solid lightgray;
+            padding: 50px;
+            margin: auto;
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMS2OBS</title>
+</head>
+<body>
+    <div>
+    <h2 id="title">ALMS2OBS</h2>
+    <h3>Important instructions:</h3>
+    <ul>
+    <li>Be sure to make different folders for day and evening classes!</li>
+    <li>You need to copy the path of the folder containing the downloaded Excel files.</li>
+    <p>For example: C:\User\JohnDoe\Downloads\Midterm(Day)</p>
+    <li>After copying, you should paste the path to the input field below.</li>
+    </ul>
+    <form method="POST" action="{{url_for('mods_created')}}" style="margin: auto;">
+        <label for="folder_path">Please choose a directory to modify the Excel files in it:</label>
+        <input type="text" name="folder_path" id="folder_path" placeholder="Choose a directory"/><br><br>
+        <input type="submit" value="Modify files"></input>
+    </form>
+    
+</div>
+
+
+</body>
+</html>

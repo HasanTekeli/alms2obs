@@ -1,0 +1,20 @@
+deps_list = {
+            'Türk Dili ve Edebiyatı': 'TDE',
+            'Psikoloji': 'Psikoloji',
+            'Tarih': 'Tarih',
+            'Fizyoterapi': 'FTR',
+            'Diş Hekimliği': 'Diş',
+            'Halkla İlişkiler ve Tanıtım': 'Halklaİlişkiler',
+            'İlk ve Acil Yardım': 'İlkAcil',
+            'Saç Bakımı ve Güzellik': 'SaçBakım',
+            'Biyomedikal Cihaz Teknolojisi': 'ZMYO BiyomedZMYO',
+            'Harita ve Kadastro': 'ZMYO Harita Kadastro',
+            'İnşaat Teknoloji': 'ZMYO İnşaat Teknolojileri',
+            'İşletme Yönetim': 'ZMYO İşletme Yön',
+            'Lojistik': 'ZMYO Lojistik',
+            'Maden Teknolojisi': 'ZMYO Maden Teknolojisi',
+            'Madencilik Teknolojisi': 'ZMYO Madencilik Teknolojisi',
+            'Muhasebe': 'ZMYO Muhasebe',
+            'Radyo ve Televizyon': 'ZMYO Radyo ve Televizyon',
+            'Turizm': 'ZMYO Turizm'
+            }
